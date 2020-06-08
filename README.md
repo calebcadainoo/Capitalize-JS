@@ -3,7 +3,7 @@ Capitalize First Character of Each Word in string JS
 
 ```sh
 // CAPTALIZE FIRST LETTER OF WORDS IN STRING
-function capitalLetter(str) {
+function capitalize(str) {
     str = str.split(" ");
 
     for (var i = 0, x = str.length; i < x; i++) {
